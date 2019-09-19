@@ -8,7 +8,6 @@
     <groupId>com.mclx</groupId>
     <artifactId>aloha</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>aloha</name>
     <packaging>pom</packaging>
 
     <properties>
