@@ -1,0 +1,11 @@
+package com.mclx.annotation;
+
+import java.lang.annotation.*;
+
+@Target({ElementType.TYPE, ElementType.METHOD})
+@Inherited
+@Retention(RetentionPolicy.RUNTIME)
+public @interface RestContentType {
+    String contentType();
+
+}
